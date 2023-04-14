@@ -6,13 +6,13 @@
 Awesome multiappcamera created by skittleson
 
 This is still a WIP but functional
-
+<!--
 ## Install it from PyPI
 
 ```bash
 pip install multiappcamera
 ```
-
+-->
 ## Usage
 
 ```py
