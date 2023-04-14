@@ -1,11 +1,12 @@
-# multiappcamera
+
+# Multi App Camera
+
+Simple project to use an arducam on a raspberry pi zero w with an LCD screen
 
 [![codecov](https://codecov.io/gh/skittleson/multiAppCamera/branch/main/graph/badge.svg?token=multiAppCamera_token_here)](https://codecov.io/gh/skittleson/multiAppCamera)
 [![CI](https://github.com/skittleson/multiAppCamera/actions/workflows/main.yml/badge.svg)](https://github.com/skittleson/multiAppCamera/actions/workflows/main.yml)
 
 Awesome multiappcamera created by skittleson
-
-This is still a WIP but functional
 
 ## Install it from PyPI
 

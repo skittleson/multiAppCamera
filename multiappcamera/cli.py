@@ -1,3 +1,4 @@
+from .CamToLcd import start
 """CLI interface for multiappcamera project.
 
 Be creative! do whatever you want!
@@ -25,4 +26,7 @@ def main():  # pragma: no cover
         * List all available tasks
         * Run an application (Flask, FastAPI, Django, etc.)
     """
-    print("This will do something")
+    print("mutliappcamera")
+    start()
+
+

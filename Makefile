@@ -2,6 +2,10 @@
 ENV_PREFIX=$(shell python -c "if __import__('pathlib').Path('.venv/bin/pip').exists(): print('.venv/bin/')")
 USING_POETRY=$(shell grep "tool.poetry" pyproject.toml && echo "yes")
 
+.PHONY: sync
+sync:
+	@rsync -a ../multiAppCamera support@192.168.4.27:/home/support
+
 .PHONY: help
 help:             ## Show the help.
 	@echo "Usage: make <target>"
@@ -114,6 +118,7 @@ switch-to-poetry: ## Switch to poetry package manager.
 .PHONY: init
 init:             ## Initialize the project based on an application template.
 	@./.github/init.sh
+
 
 
 # This project has been generated from rochacbruno/python-project-template
